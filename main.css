@@ -1,56 +1,187 @@
-body {
-  margin: 0px auto;
-  max-width: 1500px;
-  font-family: "Helvetica", "Arial", sans-serif;
-  line-height: 1.5;
-  padding: 0px 0px;
-  text-align: left;
-  background-color: #B6A69A;
-}
-#backgroundColor{
 
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-h1 {
-  position: relative;
-  font-size : 200px;
-  padding: 0px 0px 0px 1000px;
+li, a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #626161;
+  text-decoration: none;
 }
 
-iframe {
-  height:400px;
-  width: 500px;
+
+
+header.other_page {
+  background-image: url("background2.png");
+  background-size: 100%;
+  height:40%;
+  background-repeat:no-repeat;
+
+}
+header.index_page {
+  background-image: url("background.png");
+  background-size: 100%;
+  height:100%;
+  background-repeat:no-repeat;
+}
+.logo_container{
+   position: absolute;
+   left: 10%;
+   top:5%;
+
+}
+.logo a{
+  cursor:pointer;
 }
 
-#img-profile{
-  position: relative;
-}
-
-.containter1 {
-    padding 200px 0px 0px 0px;
-}
-
-.embed-container {
-  position: relative;
-  overflow: hidden;
-  max-width: 100%;
-  height: 800px;
-  margin-top: 100px;
-}
-.install {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-  height: auto;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
+.nav_links{
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  right: 10%;
+  top:5%;
+
+}
+
+.nav_links li{
+  display: inline-block;
+  padding:0px 20px;
+}
+
+.nav_links li a
+{
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover
+{
+   color: #000000;
+}
+
+.text-container{
+  padding-top:20%;
+  padding-left:15%;
+  line-height: 2em;
+  padding-bottom:20%;
+}
+h1.main_title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12vw;
+  z-index:1;
+}
+.resume_title_container{
+  margin: 10%;
+}
+h1.resume_title{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:5px;
+  z-index: 1;
+}
+
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5vw;
+}
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5vw;
+}
+h4{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5vw;
+}
+
+.flower_container{
+  margin: 10% 10%;
+}
+.flower_web{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+
+.easyfind_container{
+  margin: 100px 200px;
+}
+.easyfind{
+  box-shadow: 4px 4px 30px  #5e5e5e;
+}
+.first_row{
+  text-align: center;
+  margin-bottom:10%;
+}
+.family_container, .singapore_container{
+  display:inline-block;
+  text-align: center;
+  width: 45%
+}
+.family{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+.singapore{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+.second_row{
+  text-align: center;
+  margin-bottom:10%;
+}
+.monterey_container, .carmel_container{
+  display:inline-block;
+  text-align: center;
+  width: 45%;
+}
+.monterey{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+
+.carmel{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+
+.third_row{
+  text-align: center;
+  margin-bottom:10%;
+}
+.sjsu_container, .wedding_container{
+  display:inline-block;
+  text-align: center;
+  width: 45%;
+}
+.sjsu{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+
+.wedding{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+
+
+.resume_container{
+  margin:5%;
+  margin-right:15%;
+  margin-left:15%;
+}
+.resume{
+  box-shadow: 4px 4px 30px #5e5e5e;
+}
+
+.button{
+   text-align: center;
+   margin-top:10%;
+}
+
+.download a: hover{
+  color: #000000;
+}
+.download{
+  border: 3px solid #565555;
+  background: none;
+  padding: 10px 20px;
+  font-size: 50px;
+  cursor: pointer;
+}
+.footer{
+  position: relative;
+  text-align: center;
+  height:100px;
+  margin-top:10%;
+  clear: both;
 }
