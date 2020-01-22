@@ -77,18 +77,12 @@ h1.resume_title{
   font-size:8vw;
 }
 
-h2{
+h2.introduction{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 5vw;
+
 }
-h3{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 5vw;
-}
-h4{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 5vw;
-}
+
 
 .flower_container{
   margin: 10% 10%;
@@ -97,8 +91,11 @@ h4{
   box-shadow: 4px 4px 30px #5e5e5e;
 }
 
+.poster_container{
+  margin:0 auto;
+}
 .easyfind_container{
-  margin: 100px 200px;
+  margin: 10% 10%;
 }
 .easyfind{
   box-shadow: 4px 4px 30px  #5e5e5e;
@@ -177,10 +174,81 @@ h4{
   font-size: 50px;
   cursor: pointer;
 }
+header.flower_page{
+  background: none;
+  margin-top:20%;
+
+}
+header.easyfind_page{
+  background: none;
+  margin-top:20%;
+}
+.flower_page_title{
+  color:#434343;
+  margin-top:5%;
+  margin-bottom:10%;
+  margin-left:10%;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:1vw;
+  line-height:0.5em;
+}
+.easyfind_page_title{
+  color:#434343;
+  margin-top:5%;
+  margin-bottom:10%;
+  margin-left:10%;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:1vw;
+  line-height:0.5em;
+}
+h2.small_title{
+  color:black;
+  margin-top:10%;
+  text-align: center;
+  font-family:'Source Sans Pro', sans-serif;
+  font-size:1.5vw;
+}
+p.content{
+  line-height:2;
+   margin-left:20%;
+   margin-right:20%;
+   color: #434343;
+   text-align: center;
+   font-family:'Source Sans Pro', sans-serif;
+   font-size:1vw;
+}
+ol li{
+  line-height:2;
+  font-size:1vw;
+  margin-left:20%;
+  margin-right:20%;
+  color: #434343;
+  text-align: left;
+}
+.previous {
+  margin-left:40%;
+  font-size: 1.5vw;
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding:20px;
+}
+.next {
+  font-size: 1.5vw;
+  background-color: #f1f1f1;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  padding:20px;
+  margin-right:40%;
+  float:right;
+}
+
 .footer{
+  font-size: 0.8vw;
   position: relative;
   text-align: center;
-  height:100px;
-  margin-top:10%;
-  clear: both;
+  margin-top:15%;
+  margin-bottom:10%;
 }
